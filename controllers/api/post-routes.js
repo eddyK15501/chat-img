@@ -1,11 +1,11 @@
 const router = require('express').Router();
-const { User, Post, User } = require('../../models');
-const withAuth = require('../../utils/auth');
+const { User, Post } = require('../../models');
+// const withAuth = require('../../utils/auth');
 
 router.get('/', async (req, res) => {
   try {
     const dbPostData = await Post.findAll({
-      include: [{ module: User, attributes: ['username'] }],
+      include: [{ model: User, attributes: ['username'] }],
     });
     if (!dbPostData) {
       res.status(404).json({ mesage: 'No posts were found.' });
@@ -23,7 +23,7 @@ router.get('/:id', async (req, res) => {
     const dbPostData = await Post.findByPk(req.params.id, {
       include: [
         {
-          module: User,
+          model: User,
           attributes: ['username'],
         },
       ],
