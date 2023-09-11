@@ -4,7 +4,7 @@
 ## Wireframes
 
 * #### Homepage
-<img src="https://user-images.githubusercontent.com/88423414/266858486-09e59baa-b4bf-45a0-a894-336ea030b1c4.png" />
+<img src="https://user-images.githubusercontent.com/88423414/266892856-29345dba-7588-44c2-a1af-86f39f623ee6.png" />
 
 * #### Mainpage
-<img src="https://user-images.githubusercontent.com/88423414/266858527-25d44e29-a533-407d-9e9a-ad40137bff3f.png" />
+<img src="https://user-images.githubusercontent.com/88423414/266892875-d4db6535-a63f-4199-a959-f85f1ed0e152.png" />
