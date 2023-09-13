@@ -1,19 +1,23 @@
-@import url('https://fonts.googleapis.com/css2?family=Give+You+Glory&family=Indie+Flower&family=Roboto&display=swap');
-
 /* font-family: 'Give You Glory', cursive;
 font-family: 'Indie Flower', cursive;
 font-family: 'Roboto', sans-serif; */
 
+/* GOOGLE FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Give+You+Glory&family=Indie+Flower&family=Roboto&display=swap');
+
+/* UNIVERSAL */
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
+/* BODY */
 body {
     font-family: 'Indie Flower', cursive;
 }
 
+/* NAVBAR */
 nav {
     display: flex;
     justify-content: space-between;
@@ -52,6 +56,7 @@ nav a:active {
     transform: scale(0.9);
 }
 
+/* HEADER */
 header {
     font-weight: bold;
     font-size: 1.8rem;
@@ -64,6 +69,7 @@ header {
     gap: 3.5rem;
 }
 
+/* HOMEPAGE */
 .homepage-signup-container {
     display: flex;
     justify-content: center;
@@ -92,3 +98,64 @@ header {
 #homepage-signup-btn:active {
     transform: scale(0.95);
 }
+
+/* FORM */
+.form-main-container {
+    max-width: 200px; 
+    margin: 2rem auto 0;
+    height: 80vh;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.input-field {
+    padding: 0.2rem 0 0.2rem 0.1rem;
+    border: 1px solid rgb(204, 204, 204);
+    border-radius: 2px;
+    outline: none;
+}
+
+.form-button {
+    cursor: pointer;
+    padding: 0.5rem 0.7rem;
+    border: none;
+    border-radius: 3px;
+    background-color: rgb(24, 113, 202);
+    color: #fff;
+    transition: 0.1s ease;
+    margin-bottom: 0.6rem;
+}
+
+.form-button:hover {
+    background-color: rgb(98, 176, 255);
+}
+
+.form-button:active {
+    transform: scale(0.95);
+}
+
+.form-anchor {
+    text-decoration: none;
+    color: dodgerblue;
+    font-size: 0.8rem;
+    transition: 0.1s ease;
+    font-size: 0.8rem;
+}
+
+.form-anchor:hover {
+    color: rgb(165, 210, 255);
+}
+
+/* SIGNUP */
+.signup-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.3rem;
+    font-size: 1.2rem;
+}
+
+
