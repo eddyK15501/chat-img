@@ -102,7 +102,7 @@ header {
 /* FORM */
 .form-main-container {
     max-width: 200px; 
-    margin: 2rem auto 0;
+    margin: 1rem auto 0;
     height: 80vh;
 }
 
@@ -127,7 +127,8 @@ header {
     background-color: rgb(24, 113, 202);
     color: #fff;
     transition: 0.1s ease;
-    margin-bottom: 0.6rem;
+    margin: 1rem auto 0.6rem;
+    display: block;
 }
 
 .form-button:hover {
@@ -141,9 +142,10 @@ header {
 .form-anchor {
     text-decoration: none;
     color: dodgerblue;
-    font-size: 0.8rem;
+    font-size: 0.9rem;
     transition: 0.1s ease;
-    font-size: 0.8rem;
+    display: block;
+    text-align: center;
 }
 
 .form-anchor:hover {
@@ -151,6 +153,12 @@ header {
 }
 
 /* SIGNUP */
+.signup-header-container {
+    text-align: center;
+    margin-top: 3rem;
+    font-family: 'Give You Glory', cursive;
+}
+
 .signup-form {
     display: flex;
     flex-direction: column;
@@ -158,4 +166,17 @@ header {
     font-size: 1.2rem;
 }
 
+/* LOGIN */
+.login-header-container {
+    text-align: center;
+    margin-top: 3rem;
+    font-family: 'Give You Glory', cursive;
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.3rem;
+    font-size: 1.2rem;
+}
 
