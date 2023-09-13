@@ -11,15 +11,28 @@
 
     <nav>
         <h1>
+            {{#if loggedIn}}
+            <a href="/todolist">To-Do-List</a>
+            {{else}}
             <a href="/">To-Do-List</a>
+            {{/if}}
         </h1>
         <ul>
+            {{#if loggedIn}}
+            <li>
+                <a href="/todolist">Dashboard</a>
+            </li>
+            <li>
+                <a id="logout">Logout</a>
+            </li>
+            {{else}}
             <li>
                 <a href="/">Home</a>
             </li>
             <li>
                 <a href="/login">Login</a>
             </li>
+            {{/if}}
         </ul>
     </nav>
 
@@ -27,5 +40,8 @@
         {{{body}}}
     </main>
 
+    {{#if loggedIn}}
+    <script src="/js/logout.js"></script>
+    {{/if}}
 </body>
 </html>

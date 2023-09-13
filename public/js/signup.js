@@ -14,7 +14,7 @@ const signupFormHandler = async (event) => {
     const data = await response.json();
 
     if (response.ok) {
-      document.location.replace('/');
+      document.location.replace('/todolist');
     } else {
       alert(data.error);
     }

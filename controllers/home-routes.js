@@ -6,6 +6,17 @@ router.get('/', (req, res) => {
   res.status(200).render('homepage');
 });
 
+
+
+
+router.get('/todolist', (req, res) => {
+  res.render('todolist');
+});
+
+
+
+
+
 router.get('/login', (req, res) => {
   if (req.session.loggedIn) {
     res.redirect('/');
