@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Give+You+Glory&family=Indie+Flower&family=Roboto&display=swap');
+
+/* font-family: 'Give You Glory', cursive;
+font-family: 'Indie Flower', cursive;
+font-family: 'Roboto', sans-serif; */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Indie Flower', cursive;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Give You Glory', cursive;
+    font-size: 1.5rem;
+    padding: 0.9rem 2.5rem 0.3rem;
+    border-bottom: 2px solid #000;
+    box-shadow: 0px 1px 0px 0px rgb(0 0 0 / 5%), 0px 1px 6px 0px rgb(0 0 0 / 80%);
+}
+
+nav ul {
+    display: flex;
+    margin-right: 1.5rem;
+    gap: 1rem;
+}
+
+nav li {
+    list-style-type: none;
+    margin-left: 1.5rem;
+}
+
+nav a {
+    text-decoration: none;
+    color: #000;
+    opacity: 1;
+    transition: 0.2s ease-out;
+    display: inline-block;
+}
+
+nav a:hover {
+    opacity: 0.15;
+}
+
+nav a:active {
+    transform: scale(0.9);
+}
+
+header {
+    font-weight: bold;
+    font-size: 1.8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 5rem 2rem;
+    gap: 3.5rem;
+}
+
+.homepage-signup-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+#homepage-signup-btn {
+    cursor: pointer;
+    font-size: 1.5rem;
+    font-family: 'Roboto', sans-serif;
+    border: none;
+    padding: 0.6rem 1rem;
+    background-color: dodgerblue;
+    color: #000;
+    border-radius: 5px;
+}
+
