@@ -1,1 +1,7 @@
-<h1></h1>
+<div class="todolist-main-container">
+    {{#each data as |post|}}
+    {{> todolist-post}}
+    {{/each}}
+</div>
+
+<script src="/js/todolist.js"></script>
