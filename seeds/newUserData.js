@@ -8,8 +8,8 @@ const newUsers = [
   },
   {
     username: 'test2',
-    email: 'test2gmail.com',
-    password: 'test'
+    email: 'test2@gmail.com',
+    password: 'test',
   },
 ];
 
