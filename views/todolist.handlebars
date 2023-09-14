@@ -1,7 +1,15 @@
 <div class="todolist-main-container">
-    {{#each data as |post|}}
-    {{> todolist-post}}
-    {{/each}}
+    <div class="todolist-grid-container">
+        {{#each data as |post|}}
+        {{> todolist-post}}
+        {{/each}}
+    </div>
+
+    {{#if loggedIn}}
+        <div class="todolist-btn-container">
+            <button id="create-post-btn">Create New Post</button>
+        </div>
+    {{/if}}
 </div>
 
 <script src="/js/todolist.js"></script>

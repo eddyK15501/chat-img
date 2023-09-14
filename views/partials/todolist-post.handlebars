@@ -1,10 +1,12 @@
-<div class="todolist-main-container">
+<div class="todolist-container">
     <i class="fa-solid fa-xmark"></i>
-    <div class="todolist-title-container">
-        <h3 id="todolist-title">{{title}}</h3>
+    <div class="todolist-flex-container">
+        <div class="todolist-title-container">
+            <h3 id="todolist-title">{{title}}</h3>
+        </div>
+        <div class="todolist-content-container">
+            <p id="todolist-content">{{content}}</p>
+        </div>
     </div>
-    <div class="todolist-content-container">
-        <p id="todolist-content">{{content}}</p>
-    </div>
-    <span id="created-on">created on:{{format_date createdAt}}</span>
+    <span id="created-on">Created on: {{format_date createdAt}}</span>
 </div>

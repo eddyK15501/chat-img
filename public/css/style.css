@@ -214,3 +214,90 @@ header {
 }
 
 /* TODOLIST */
+.todolist-main-container {
+    padding: 3rem;
+}
+
+.todolist-grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 3rem;
+}
+
+.todolist-container {
+    width: 100%;
+    aspect-ratio: 1;
+    cursor: pointer;
+    border: 1px solid #000;
+    background-color: #fffeaa;
+    position: relative;
+    box-shadow: 1px 2px 7px #000;
+}
+
+.todolist-main-container i {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 1.5rem;
+    cursor: pointer;
+    padding: 0.4rem;
+}
+
+.todolist-flex-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 1rem;
+    padding: 0 0.5rem;
+    gap: 1.5rem;
+}
+
+#todolist-title {
+    cursor: text;
+    font-weight: bold;
+    font-size: 1.6rem;
+    outline: none;
+}
+
+#todolist-content {
+    cursor: text;
+    outline: none;
+    font-size: 1.1rem;
+}
+
+#created-on {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    cursor: text;
+    font-size: 0.8rem;
+    color:rgb(141, 141, 141);
+}
+
+.todolist-btn-container {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 6rem;
+}
+
+#create-post-btn {
+    cursor: pointer;
+    padding: 0.5rem 0.7rem;
+    border: 1px solid #000;
+    border-radius: 3px;
+    background-color: rgb(98, 176, 255);
+    color: #000;
+    font-family: 'Indie Flower', cursive;
+    font-size: 1.5rem;
+    transition: 0.2s ease-out;
+    box-shadow: 3px 3px 7px #000;
+}
+
+#create-post-btn:hover {
+    background-color: rgb(148, 202, 255);
+    color: #fff;
+}
+
+#create-post-btn:active {
+    transform: scale(0.95);
+    box-shadow: none;
+}
