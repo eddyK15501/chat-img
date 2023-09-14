@@ -17,6 +17,20 @@ const newPosts = [
     content: 'For project 2 presentation.',
     user_id: 1,
   },
+  {
+    title:'Financial Tasks',
+    content: 'Update the monthly budget spreadsheet with recent expenses.',
+    user_id: 2,
+  },
+  { title: 'Email Follow-up',
+    content: 'Send a follow-up email to the client.',
+    user_id: 2,
+  },
+  {
+    title: 'Cleaning',
+    content: 'Dedicate 30 minutes to organize garage.',
+    user_id: 2,
+  }
 ];
 
 const seedPosts = () => Post.bulkCreate(newPosts);
