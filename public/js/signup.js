@@ -6,17 +6,22 @@ const signupFormHandler = async (event) => {
   const password = document.getElementById('signup-password').value.trim();
 
   if (username && email && password) {
-    const response = await fetch('/api/users/signup', {
-      method: 'POST',
-      body: JSON.stringify({ username, email, password }),
-      headers: { 'Content-Type': 'application/json' },
-    });
-    const data = await response.json();
+    try {
+      const response = await axios.post('/api/users/signup', {
+        username,
+        email,
+        password,
+      });
 
-    if (response.ok) {
-      document.location.replace('/todolist');
-    } else {
-      alert(data.error);
+      const data = response.data;
+
+      if (response.status === 200) {
+        document.location.replace('/todolist');
+      } else {
+        alert(data.error);
+      }
+    } catch (error) {
+      alert('Failed to sign up.');
     }
   }
 };

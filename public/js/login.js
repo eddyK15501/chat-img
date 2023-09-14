@@ -5,15 +5,18 @@ const loginFormHandler = async (event) => {
   const password = document.getElementById('login-password').value.trim();
 
   if (email && password) {
-    const response = await fetch('/api/users/login', {
-      method: 'POST',
-      body: JSON.stringify({ email, password }),
-      headers: { 'Content-Type': 'application/json' },
-    });
+    try {
+      const response = await axios.post('/api/users/login', {
+        email,
+        password,
+      });
 
-    if (response.ok) {
-      document.location.replace('/todolist');
-    } else {
+      if (response.status === 200) {
+        document.location.replace('/todolist');
+      } else {
+        alert('Failed to log in.');
+      }
+    } catch (error) {
       alert('Failed to log in.');
     }
   }

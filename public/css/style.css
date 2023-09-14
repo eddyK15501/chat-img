@@ -208,3 +208,9 @@ header {
     font-size: 1.2rem;
 }
 
+/* LOGOUT */
+#logout {
+    cursor: pointer;
+}
+
+/* TODOLIST */
