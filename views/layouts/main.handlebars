@@ -36,9 +36,15 @@
         </ul>
     </nav>
 
+    {{#if loggedIn}}
     <main>
         {{{body}}}
     </main>
+    {{else}}
+    <main class="background-white">
+        {{{body}}}
+    </main>
+    {{/if}}
 
     {{#if loggedIn}}
     <script type="module" src="/js/logout.js"></script>
