@@ -216,6 +216,7 @@ header {
 /* TODOLIST */
 .todolist-main-container {
     padding: 3rem;
+    background-color: #c0c0c0;
 }
 
 .todolist-grid-container {
@@ -265,17 +266,6 @@ header {
     font-size: 1.1rem;
 }
 
-i.checkmark {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    cursor: pointer;
-    margin-left: 0.5rem;
-    padding: 0.4rem;
-    color: rgb(30, 189, 30);
-    font-size: 3rem;
-}
-
 #created-on {
     position: absolute;
     bottom: 0;
@@ -314,7 +304,101 @@ i.checkmark {
     box-shadow: none;
 }
 
+#create-post-btn a {
+    color: #000;
+    text-decoration: none;
+}
+
+i.checkmark {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    cursor: pointer;
+    margin-left: 0.5rem;
+    padding: 0.4rem;
+    color: rgb(30, 189, 30);
+    font-size: 2.3rem;
+}
+
 /* LINE THROUGH */
 .line-through {
     text-decoration: line-through;
+}
+
+/* TOGGLE COLOR  */
+.text-grey {
+    color: #919191;
+}
+
+/* DASHBOARD (CREATE NEW POST) */
+.dashboard-new-post {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5rem auto 0;
+    text-align: center;
+    flex-direction: column;
+    max-width: 550px;
+}
+
+.new-post {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    width: 100%;
+}
+
+.new-post-title {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.new-post-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+}
+
+#db-post-title {
+    width: 100%;
+    outline: none;
+    font-size: 1rem;
+    padding: 0.1rem 0.1rem;
+}
+
+#db-post-content {
+    width: 100%;
+    resize: none;
+    outline: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    padding: 0.1rem 0.1rem;
+}
+
+.new-post-btn {
+    font-size: 1rem;
+    cursor: pointer;
+    padding: 0.5rem 0.7rem;
+    border: none;
+    border-radius: 3px;
+    background-color: rgb(24, 113, 202);
+    transition: 0.1s ease;
+    margin: 1rem 0 2rem;
+    color: #fff;
+    font-family: 'Indie Flower', cursive;
+    box-shadow: 3px 3px 7px #000;
+}
+
+.new-post-btn:hover {
+    background-color: rgb(98, 176, 255);
+}
+
+.new-post-btn:active {
+    transform: scale(0.95);
+    box-shadow: none;
 }
