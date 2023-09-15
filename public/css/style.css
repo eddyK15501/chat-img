@@ -235,7 +235,7 @@ header {
     overflow-y: auto;
 }
 
-.todolist-main-container i {
+.todolist-container i {
     display: flex;
     justify-content: flex-end;
     font-size: 1.5rem;
@@ -263,6 +263,17 @@ header {
     cursor: text;
     outline: none;
     font-size: 1.1rem;
+}
+
+i.checkmark {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    cursor: pointer;
+    margin-left: 0.5rem;
+    padding: 0.4rem;
+    color: rgb(30, 189, 30);
+    font-size: 3rem;
 }
 
 #created-on {
@@ -301,4 +312,9 @@ header {
 #create-post-btn:active {
     transform: scale(0.95);
     box-shadow: none;
+}
+
+/* LINE THROUGH */
+.line-through {
+    text-decoration: line-through;
 }

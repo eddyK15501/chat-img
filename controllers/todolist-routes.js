@@ -18,13 +18,17 @@ router.get('/', async (req, res) => {
   }
 });
 
-router.get('/:id', async (req, res) => {
-  try {
+// router.get('/:id', async (req, res) => {
+//   try {
 
-  } catch (err) {
-    console.log(err);
-    res.status(500).json(err);
-  }
+//   } catch (err) {
+//     console.log(err);
+//     res.status(500).json(err);
+//   }
+// });
+
+router.get('/new', (req, res) => {
+  res.render('new-todolist', { loggedIn: req.session.loggedIn });
 });
 
 module.exports = router;
