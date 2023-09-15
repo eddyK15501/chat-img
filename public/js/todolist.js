@@ -10,13 +10,18 @@ const createTodoList = async (event) => {
         title,
         content,
       });
+
+      if (response.status === 201) {
+        document.location.replace('/todolist');
+      } else {
+        alert('Failed to create and save new post to the database.');
+      }
     } catch (err) {
-        
+      alert('Failed to create new post.');
     }
-  } else {
   }
 };
 
 document
-  .getElementById('new-post-btn')
+  .getElementById('db-form-submit')
   .addEventListener('submit', createTodoList);
