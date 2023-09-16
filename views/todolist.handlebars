@@ -6,6 +6,7 @@
     </div>
 
     {{#if loggedIn}}
+    {{#if data.length}}
         <div class="todolist-btn-container">
             <a href="/todolist/new">
                 <button id="create-post-btn">
@@ -13,7 +14,17 @@
                 </button>
             </a>
         </div>
+        {{else}}
+        <div class="todolist-btn-container-two">
+            <a href="/todolist/new">
+                <button id="create-post-btn">
+                    Create New Post
+                </button>
+            </a>
+        </div>
+    {{/if}}
     {{/if}}
 </div>
 
 <script src="/js/checkmark.js"></script>
+<script src="/js/delete.js"></script>

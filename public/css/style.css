@@ -239,8 +239,10 @@ header {
 
 .todolist-grid-container {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(250px, 350px));
     grid-gap: 3rem;
+    justify-content: center;
+    align-items: center;;
 }
 
 .todolist-container {
@@ -299,12 +301,18 @@ header {
     margin-top: 6rem;
 }
 
+.todolist-btn-container-two {
+    display: flex;
+    justify-content: center;
+    margin-top: 6rem;
+}
+
 #create-post-btn {
     cursor: pointer;
     padding: 0.5rem 0.7rem;
     border: 1px solid #000;
     border-radius: 3px;
-    background-color: rgb(98, 176, 255);
+    background-color: rgb(155, 255, 253);
     color: #000;
     font-family: 'Indie Flower', cursive;
     font-size: 1.5rem;
@@ -313,8 +321,7 @@ header {
 }
 
 #create-post-btn:hover {
-    background-color: rgb(148, 202, 255);
-    color: #fff;
+    background-color: rgb(255, 242, 223);
 }
 
 #create-post-btn:active {
@@ -340,7 +347,7 @@ i.checkmark {
 }
 
 i.checkmark:active {
-    transform: scale(0.4);
+    transform: scale(0.7);
 }
 
 /* LINE THROUGH */
@@ -350,7 +357,7 @@ i.checkmark:active {
 
 /* TOGGLE COLOR  */
 .text-grey {
-    color: #919191;
+    color: #afafaf;
 }
 
 /* DASHBOARD (CREATE NEW POST) */
@@ -358,10 +365,11 @@ i.checkmark:active {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 5rem auto 0;
+    margin: 0 auto;
     text-align: center;
     flex-direction: column;
     max-width: 550px;
+    padding-top: 5rem;
 }
 
 .new-post {
@@ -409,7 +417,7 @@ i.checkmark:active {
     padding: 0.5rem 0.7rem;
     border: none;
     border-radius: 3px;
-    background-color: rgb(24, 113, 202);
+    background-color: rgb(96, 175, 253);
     transition: 0.1s ease;
     margin: 1rem 0 2rem;
     color: #fff;
@@ -418,7 +426,8 @@ i.checkmark:active {
 }
 
 .new-post-btn:hover {
-    background-color: rgb(98, 176, 255);
+    background-color: rgb(184, 220, 255);
+    color: #000;
 }
 
 .new-post-btn:active {
