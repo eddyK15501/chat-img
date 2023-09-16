@@ -1,5 +1,5 @@
 const router = require('express').Router();
-const { User, Post } = require('../models');
+const { Post } = require('../models');
 const withAuth = require('../utils/auth');
 
 router.get('/', withAuth, async (req, res) => {
@@ -18,14 +18,17 @@ router.get('/', withAuth, async (req, res) => {
   }
 });
 
-// router.get('/:id', async (req, res) => {
-//   try {
+router.get('/:id', async (req, res) => {
+  try {
+    const dbPostData = await Post.findByPk(req.params.id);
+    const postData = dbPostData.get({ plain: true });
 
-//   } catch (err) {
-//     console.log(err);
-//     res.status(500).json(err);
-//   }
-// });
+    res.render('edit-post', { postData, loggedIn: req.session.loggedIn });
+  } catch (err) {
+    console.log(err);
+    res.status(500).json(err);
+  }
+});
 
 router.get('/new', (req, res) => {
   res.render('new-todolist', { loggedIn: req.session.loggedIn });
