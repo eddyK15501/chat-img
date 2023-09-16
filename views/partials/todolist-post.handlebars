@@ -1,3 +1,4 @@
+
 <div class="todolist-container">
     <span class="todolist-post-id">{{id}}</span>
     <i class="fa-solid fa-xmark delete-btn"></i>
@@ -9,7 +10,10 @@
             <p class="tl-content" id="todolist-content">{{content}}</p>
         </div>
     </div>
-     <i class="fa-solid fa-check checkmark"></i>
+    <i class="fa-solid fa-check checkmark"></i>
+    <a href="/todolist/{{id}}" class="todolist-anchor">
+        <i class="fa-solid fa-pen-to-square edit-btn"></i>
+    </a>
     <span id="created-on">Created on: {{format_date createdAt}}</span>
 </div>
 

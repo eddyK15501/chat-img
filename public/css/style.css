@@ -256,7 +256,7 @@ header {
     overflow-y: auto;
 }
 
-.todolist-container i {
+.todolist-container .delete-btn {
     display: flex;
     justify-content: flex-end;
     font-size: 1.5rem;
@@ -350,6 +350,24 @@ i.checkmark:active {
     transform: scale(0.7);
 }
 
+.todolist-anchor {
+    text-decoration: none;
+    color: #000;
+}
+
+i.edit-btn {
+    position: absolute;
+    bottom: 4px;
+    left: 70px;
+    padding: 0.5rem;
+    font-size: 2rem;
+    color: rgb(254, 169, 148);
+}
+
+i.edit-btn:active {
+    transform: scale(0.7);
+}
+
 /* LINE THROUGH */
 .line-through {
     text-decoration: line-through;
@@ -434,3 +452,5 @@ i.checkmark:active {
     transform: scale(0.95);
     box-shadow: none;
 }
+
+/* EDIT POST */
