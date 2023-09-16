@@ -18,6 +18,10 @@ router.get('/', withAuth, async (req, res) => {
   }
 });
 
+router.get('/new', (req, res) => {
+  res.render('new-todolist', { loggedIn: req.session.loggedIn });
+});
+
 router.get('/:id', async (req, res) => {
   try {
     const dbPostData = await Post.findByPk(req.params.id);
@@ -30,8 +34,5 @@ router.get('/:id', async (req, res) => {
   }
 });
 
-router.get('/new', (req, res) => {
-  res.render('new-todolist', { loggedIn: req.session.loggedIn });
-});
 
 module.exports = router;
