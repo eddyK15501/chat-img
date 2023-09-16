@@ -389,6 +389,10 @@ i.edit-btn:active {
     padding-top: 5rem;
 }
 
+.dashboard-new-post h3 {
+    font-size: 1.5rem;
+}
+
 .new-post {
     display: flex;
     flex-direction: column;
@@ -415,21 +419,22 @@ i.edit-btn:active {
 #db-post-title {
     width: 100%;
     outline: none;
-    font-size: 1rem;
+    font-size: 1.2rem;
     padding: 0.1rem 0.1rem;
+    font-family: 'Indie Flower', cursive;
 }
 
 #db-post-content {
     width: 100%;
     resize: none;
     outline: none;
-    font-family: 'Roboto', sans-serif;
-    font-size: 1rem;
+    font-size: 1.2rem;
     padding: 0.1rem 0.1rem;
+    font-family: 'Indie Flower', cursive;
 }
 
 .new-post-btn {
-    font-size: 1rem;
+    font-size: 1.1rem;
     cursor: pointer;
     padding: 0.5rem 0.7rem;
     border: none;
@@ -464,6 +469,10 @@ i.edit-btn:active {
     padding-top: 5rem;
 }
 
+.dashboard-edit-post h3 {
+    font-size: 1.5rem;
+}
+
 .edit-post {
     display: flex;
     flex-direction: column;
@@ -490,17 +499,18 @@ i.edit-btn:active {
 #edit-post-title {
     width: 100%;
     outline: none;
-    font-size: 1rem;
+    font-size: 1.2rem;
     padding: 0.1rem 0.1rem;
+    font-family: 'Indie Flower', cursive;
 }
 
 #edit-post-content {
     width: 100%;
     resize: none;
     outline: none;
-    font-family: 'Roboto', sans-serif;
-    font-size: 1rem;
+    font-size: 1.2rem;
     padding: 0.1rem 0.1rem;
+    font-family: 'Indie Flower', cursive;
 }
 
 .edit-post-btn {
@@ -525,4 +535,70 @@ i.edit-btn:active {
 .edit-post-btn:active {
     transform: scale(0.95);
     box-shadow: none;
+}
+
+/* MEDIA QUERY */
+@media screen and (max-width: 843px) {
+    .todolist-btn-container {
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .dashboard-new-post {
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+    }
+
+    .dashboard-edit-post {
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 567px) {
+    nav {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+
+    nav ul {
+        margin: 0;
+        gap: 2.5rem;
+    }
+
+    nav li {
+        margin: 0;
+        font-size: 1.1rem;
+    }
+
+    .homepage-btn-container {
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .todolist-flex-container {
+        margin-top: 0.5rem;
+        gap: 1rem;
+    }
+
+    #todolist-title {
+        font-size: 1.3rem;
+    }
+
+    i.checkmark {
+        font-size: 1.7rem;
+    }
+
+    i.edit-btn {
+        font-size: 1.3rem;
+        bottom: 2px;
+        left: 50px;
+    }
+
+    .todolist-container .delete-btn {
+        font-size: 1rem;
+    }
 }
