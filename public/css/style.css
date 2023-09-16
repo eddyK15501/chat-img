@@ -1,9 +1,8 @@
 /* font-family: 'Give You Glory', cursive;
-font-family: 'Indie Flower', cursive;
-font-family: 'Roboto', sans-serif; */
+font-family: 'Indie Flower', cursive; */
 
 /* GOOGLE FONTS */
-@import url('https://fonts.googleapis.com/css2?family=Give+You+Glory&family=Indie+Flower&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Give+You+Glory&family=Indie+Flower&display=swap');
 
 /* UNIVERSAL */
 * {
@@ -454,3 +453,76 @@ i.edit-btn:active {
 }
 
 /* EDIT POST */
+.dashboard-edit-post {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    text-align: center;
+    flex-direction: column;
+    max-width: 550px;
+    padding-top: 5rem;
+}
+
+.edit-post {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    width: 100%;
+}
+
+.edit-title-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.edit-content-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+}
+
+#edit-post-title {
+    width: 100%;
+    outline: none;
+    font-size: 1rem;
+    padding: 0.1rem 0.1rem;
+}
+
+#edit-post-content {
+    width: 100%;
+    resize: none;
+    outline: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    padding: 0.1rem 0.1rem;
+}
+
+.edit-post-btn {
+    font-size: 1.1rem;
+    cursor: pointer;
+    padding: 0.5rem 0.7rem;
+    border: none;
+    border-radius: 3px;
+    background-color: rgb(96, 175, 253);
+    transition: 0.1s ease;
+    margin: 1rem 0 2rem;
+    color: #fff;
+    font-family: 'Indie Flower', cursive;
+    box-shadow: 3px 3px 7px #000;
+}
+
+.edit-post-btn:hover {
+    background-color: rgb(184, 220, 255);
+    color: #000;
+}
+
+.edit-post-btn:active {
+    transform: scale(0.95);
+    box-shadow: none;
+}

@@ -1,0 +1,16 @@
+<div class="dashboard-edit-post">
+    <h3>Edit Post</h3>
+    <form id="db-form-submit" class="edit-post">
+        <div class="edit-title-container">
+            <label for="edit-post-title">Title:</label>
+            <input id="edit-post-title" type="text" value="{{postData.title}}">
+        </div>
+        <div class="edit-content-container">
+            <label for="edit-post-content">Content:</label>
+            <textarea id="edit-post-content" cols="30" rows="5">{{postData.content}}</textarea>
+        </div>
+        <button class="edit-post-btn" id="db-editpost-btn" type="submit">Save</button>
+    </form>
+</div>
+
+<script src="/js/editPost.js"></script>
