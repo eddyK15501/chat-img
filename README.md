@@ -45,6 +45,13 @@ The most fundamental web application of them all. The almighty To-Do-List. Stay 
 * #### [James Weah](https://github.com/jweah2385)
 * #### [Chrisly St Leger](https://github.com/Coolguy1k)
 
+## Usage
+* #### Click on the link above to redirect to the Heroku deployed application. Sign up for a new account or login.
+<img src="https://user-images.githubusercontent.com/88423414/268477059-e0dbe2ed-7b2f-409d-8718-0cb5d970c787.png" />
+
+* #### Create a new to-do-list. Check it off as completed, edit the post, Or delete it all together.
+<img src="https://user-images.githubusercontent.com/88423414/268477061-689e712d-180b-4c93-8990-a4204637d724.png" />
+
 ## Wireframes
 
 * #### Homepage
@@ -52,15 +59,6 @@ The most fundamental web application of them all. The almighty To-Do-List. Stay 
 
 * #### To-Do-List
 <img src="https://user-images.githubusercontent.com/88423414/266892875-d4db6535-a63f-4199-a959-f85f1ed0e152.png" />
-
-## Usage
-* #### Click on the link above to redirect to the Heroku deployed application. Sign up for a new account or login.
-
-<img src="https://user-images.githubusercontent.com/88423414/268477059-e0dbe2ed-7b2f-409d-8718-0cb5d970c787.png" />
-
-* #### Create a new to-do-list. Check it off as completed, edit the post, Or delete it all together.
-
-<img src="https://user-images.githubusercontent.com/88423414/268477061-689e712d-180b-4c93-8990-a4204637d724.png" />
 
 ## Credits
 * To my persistent classmates at the UNC coding bootcamp.
