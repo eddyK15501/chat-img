@@ -7,7 +7,7 @@
 
 
 ## Description
-The most fundamental web application of them all. The almighty To-Do-List. Stay organized and accomplish more by keeping track of your daily tasks. This is a full stack web application, utilizing Sequelize.js, Express.js, and Handlebars.js in conjunction to implement the Model-View-Controller pattern retrospectively. Server-side sessions stored into the database for user login. HTTP requests executed with Axios. JawsDB Kitefin deployed as a Database-as-a-Service (DBaaS) solution. Hosting done with Heroku.
+The most fundamental web application of them all. The almighty To-Do-List. Stay organized and accomplish more by keeping track of your daily tasks. This is a full stack web application, utilizing Sequelize.js, Express.js, and Handlebars.js in conjunction to implement the Model-View-Controller paradigm retrospectively. Server-side sessions stored into the database for user login. HTTP requests executed with Axios. JawsDB Kitefin deployed as a Database-as-a-Service (DBaaS) solution. Hosting done with Heroku.
 
 ## Link to the Deployed Application
 * [Click Here](https://eddyk15501-todolist-fullstack-10e1ec26e1dc.herokuapp.com/)
@@ -59,7 +59,7 @@ The most fundamental web application of them all. The almighty To-Do-List. Stay 
 * #### Click on the link above to redirect to the Heroku deployed application. Sign up for a new account or login.
 <img src="https://user-images.githubusercontent.com/88423414/268477059-e0dbe2ed-7b2f-409d-8718-0cb5d970c787.png" />
 
-* #### Create a new to-do-list. Check it off as completed, edit the post, Or delete it all together.
+* #### Create a new to-do-list. Check it off as completed, edit the post, or delete it all together.
 <img src="https://user-images.githubusercontent.com/88423414/268477061-689e712d-180b-4c93-8990-a4204637d724.png" />
 
 ## Credits
