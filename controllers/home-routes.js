@@ -20,8 +20,4 @@ router.get('/login', (req, res) => {
   res.render('login');
 });
 
-router.get('/random', (req, res) => {
-  res.render('random', { loggedIn: req.session.loggedIn });
-});
-
 module.exports = router;

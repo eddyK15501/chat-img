@@ -537,29 +537,6 @@ i.edit-btn:active {
     box-shadow: none;
 }
 
-.random-main-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-top: 5rem;
-}
-
-.random-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 1rem;
-}
-
-.random-container img {
-    width: 100%
-}
-
-#random-anchor {
-    font-size: 1.5rem;
-}
-
 /* MEDIA QUERY */
 @media screen and (max-width: 843px) {
     .todolist-btn-container {
@@ -598,10 +575,6 @@ i.edit-btn:active {
     .homepage-btn-container {
         flex-direction: column;
         gap: 1.5rem;
-    }
-
-    .random-container img {
-        width: 95%
     }
 }
 
