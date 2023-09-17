@@ -7,9 +7,19 @@
 
 
 ## Description
-The most fundamental web application of them all. The almighty To-Do-List. Stay organized and accomplish more by keeping track of your daily tasks. This is a full stack web application, utilizing Sequelize.js, Express.js, and Handlebars.js in conjunction to implement the Model-View-Controller pattern retrospectively. Server-side sessions stored into the database for user login. HTTP requests executed with Axios. Deploying JawsDB Kitefin as a Database-as-a-Service (DBaaS) solution. Hosting done with Heroku.
+The most fundamental web application of them all. The almighty To-Do-List. Stay organized and accomplish more by keeping track of your daily tasks. This is a full stack web application, utilizing Sequelize.js, Express.js, and Handlebars.js in conjunction to implement the Model-View-Controller pattern retrospectively. Server-side sessions stored into the database for user login. HTTP requests executed with Axios. JawsDB Kitefin deployed as a Database-as-a-Service (DBaaS) solution. Hosting done with Heroku.
 
 ## Link to the Deployed Application
+
+
+## Wireframes
+
+* #### Homepage
+<img src="https://user-images.githubusercontent.com/88423414/266892856-29345dba-7588-44c2-a1af-86f39f623ee6.png" />
+
+* #### To-Do-List
+<img src="https://user-images.githubusercontent.com/88423414/266892875-d4db6535-a63f-4199-a959-f85f1ed0e152.png" />
+
 
 ## Project Criterias
 * Use Node.js and Express.js to create a RESTful API.
@@ -51,14 +61,6 @@ The most fundamental web application of them all. The almighty To-Do-List. Stay 
 
 * #### Create a new to-do-list. Check it off as completed, edit the post, Or delete it all together.
 <img src="https://user-images.githubusercontent.com/88423414/268477061-689e712d-180b-4c93-8990-a4204637d724.png" />
-
-## Wireframes
-
-* #### Homepage
-<img src="https://user-images.githubusercontent.com/88423414/266892856-29345dba-7588-44c2-a1af-86f39f623ee6.png" />
-
-* #### To-Do-List
-<img src="https://user-images.githubusercontent.com/88423414/266892875-d4db6535-a63f-4199-a959-f85f1ed0e152.png" />
 
 ## Credits
 * To my persistent classmates at the UNC coding bootcamp.
