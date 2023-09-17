@@ -7,7 +7,7 @@
 
 
 ## Description
-The most fundamental web application of them all. The almighty To-Do-List. Stay organized and accomplish more by keeping track of your daily tasks. This is a full stack web application, utilizing Sequelize.js, Express.js, and Handlebars.js in conjunction to implement the Model-View-Controller paradigm retrospectively. Server-side sessions stored into the database for user login. HTTP requests executed with Axios. JawsDB Kitefin deployed as a Database-as-a-Service (DBaaS) solution. Hosting done with Heroku.
+The most fundamental web application of them all. The To-Do-List. Stay organized and accomplish more by keeping track of your daily tasks. This is a full stack web application, utilizing Sequelize.js, Express.js, and Handlebars.js in conjunction to implement the Model-View-Controller paradigm retrospectively. Server-side sessions stored into the database for user login. HTTP requests executed with Axios. JawsDB Kitefin deployed as a Database-as-a-Service (DBaaS) solution. Hosting done with Heroku.
 
 ## Link to the Deployed Application
 * [Click Here](https://eddyk15501-todolist-fullstack-10e1ec26e1dc.herokuapp.com/)
