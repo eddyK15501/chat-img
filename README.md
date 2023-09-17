@@ -1,9 +1,9 @@
 # To-Do-List
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
-![Open Issues](https://img.shields.io/github/issues/eddyK15501/todolist-fullstack.svg)
-![Contributors](https://img.shields.io/github/contributors/eddyK15501/todolist-fullstack.svg)
+![Open Issues](https://img.shields.io/github/issues/eddyK15501/todolist-fullstack.svg?color=orange)
+![Contributors](https://img.shields.io/github/contributors/eddyK15501/todolist-fullstack.svg?color=blueviolet)
 
-![Version](https://img.shields.io/badge/Version-1.0.0-red.svg)
+![Version](https://img.shields.io/badge/Version-1.0.0-brightgreen.svg)
 
 
 ## Description
