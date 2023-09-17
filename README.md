@@ -1,7 +1,7 @@
 # To-Do-List
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 ![Open Issues](https://img.shields.io/github/issues/eddyK15501/todolist-fullstack.svg?color=orange)
-![Contributors](https://img.shields.io/github/contributors/eddyK15501/todolist-fullstack.svg?color=blueviolet)
+![Contributors](https://img.shields.io/github/contributors/eddyK15501/todolist-fullstack.svg?color=red)
 
 ![Version](https://img.shields.io/badge/Version-1.0.0-brightgreen.svg)
 
@@ -14,10 +14,10 @@ The most fundamental web application of them all. The almighty To-Do-List. Stay 
 
 ## Wireframes
 
-* #### Homepage
+### Homepage
 <img src="https://user-images.githubusercontent.com/88423414/266892856-29345dba-7588-44c2-a1af-86f39f623ee6.png" />
 
-* #### To-Do-List
+### To-Do-List
 <img src="https://user-images.githubusercontent.com/88423414/266892875-d4db6535-a63f-4199-a959-f85f1ed0e152.png" />
 
 
