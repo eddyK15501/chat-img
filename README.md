@@ -63,7 +63,7 @@ The most fundamental web application of them all. The To-Do-List. Stay organized
 <img src="https://user-images.githubusercontent.com/88423414/268477061-689e712d-180b-4c93-8990-a4204637d724.png" />
 
 ## Credits
-* To my persistent classmates at the UNC coding bootcamp.
+* To the persistent classmates at the UNC coding bootcamp.
 
 ## License
-This application is covered under the [MIT License](./LICENSE).
+* #### This application is covered under the [MIT License](./LICENSE).
